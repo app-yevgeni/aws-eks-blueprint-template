@@ -19,5 +19,5 @@ variable "host" {
 variable "service_port" {
   description = "Port of the backend service"
   type        = number
-  default     = "3000"
+  default     = "8080"
 }
