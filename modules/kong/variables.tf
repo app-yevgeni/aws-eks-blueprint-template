@@ -1,19 +1,19 @@
 variable "name" {
   description = "The name of the service/ingress"
   type        = string
-  default     = "velero-ui"
+  default     = "httpd-server"
 }
 
 variable "namespace" {
   description = "Namespace where the ingress and service are deployed"
   type        = string
-  default     = "velero-ui"
+  default     = "default"
 }
 
 variable "host" {
   description = "Hostname for ingress"
   type        = string
-  default     = "app.pay-plus.cloud"
+  default     = "app.crypterio.co"
 }
 
 variable "service_port" {
